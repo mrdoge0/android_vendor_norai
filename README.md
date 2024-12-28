@@ -1,2 +1,2 @@
-# android_vendor_norai
-nor.ai Parts
+# nor.ai Parts
+The things that separates nor.ai from AOSP.
