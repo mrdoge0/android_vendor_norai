@@ -46,3 +46,11 @@ SYSTEMUI_OPTIMIZE_JAVA ?= true
 
 # Disable vendor restrictions.
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+# Install Google Sans fonts.
+PRODUCT_COPY_FILES += \
+    vendor/norai/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
+    vendor/norai/fonts/GoogleSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Italic.ttf \
+    vendor/norai/fonts/GoogleSansClock-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSansClock-Regular.ttf \
+    vendor/norai/fonts/GoogleSansFlex-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSansFlex-Regular.ttf \
+    vendor/norai/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
